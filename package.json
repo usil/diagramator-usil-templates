@@ -1,0 +1,22 @@
+{
+  "name": "diagramator-usil-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "minify high_level_layered_architecture_diagram/render.js > high_level_layered_architecture_diagram/dist/render.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usil/diagramator-usil-templates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usil/diagramator-usil-templates/issues"
+  },
+  "homepage": "https://github.com/usil/diagramator-usil-templates#readme",
+  "dependencies": {
+    "minify": "^9.2.0"
+  }
+}

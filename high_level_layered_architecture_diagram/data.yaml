@@ -1,0 +1,26 @@
+users:
+  title: Users
+layers:
+  client_layer:
+    title: Client Layer
+    items:
+      - acme-web
+      - oscorp-web
+      - looney-tunes-web
+  business_layer:
+    title: Business Layer
+    items:
+      - acme-api
+      - marvel-api
+      - helicarrier-api
+  data_layer:
+    title: Data Layer
+    items:
+      - acme-database
+      - heroes-database
+  cross_cutting_concerns:
+    title: Platform Services
+    items:
+      - Auth0
+      - AWS S3
+      - Logstash
