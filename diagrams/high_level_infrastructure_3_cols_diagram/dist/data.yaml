@@ -1,0 +1,26 @@
+aws:
+  id: aws
+  alias: Aws
+  icon_url: https://i.ibb.co/0Jxwr0m/ec2-v1.png
+  items:
+    - acme-web1
+    - oscorp-web1
+    - looney-tunes-web1   
+
+azure:
+  id: azure
+  alias: Azure
+  icon_url: https://i.ibb.co/4TwwHNL/az-vm-v1.png
+  items:
+    - acme-web2
+    - oscorp-web2
+    - looney-tunes-web2
+
+on-premise:
+  id: on-premise
+  alias: On-premise
+  icon_url: https://i.ibb.co/hKDWjtc/onpremise-v1.png
+  items:
+    - acme-web3
+    - oscorp-web3
+    - looney-tunes-web3     
