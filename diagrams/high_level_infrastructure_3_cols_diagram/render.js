@@ -12,19 +12,12 @@
     console.log("data", yamlObject);
 
     var clientHeightPx = document.getElementById('RightCol').clientHeight;    
-
-    if(typeof yamlObject["on-premise"]!='undefiend'){
-        renderAndFill(yamlObject["on-premise"], canvas, clientHeightPx)
+    var count=0;
+    for(var key in yamlObject){
+        if(count>2) continue;
+        renderAndFill(yamlObject[key], canvas, clientHeightPx)
+        count++;
     }
-
-    if(typeof yamlObject["aws"]!='undefiend'){
-        renderAndFill(yamlObject["aws"], canvas, clientHeightPx)
-    }
-
-    if(typeof yamlObject["azure"]!='undefiend'){  
-        renderAndFill(yamlObject["azure"], canvas, clientHeightPx)
-    }   
-    
 })();
 
 

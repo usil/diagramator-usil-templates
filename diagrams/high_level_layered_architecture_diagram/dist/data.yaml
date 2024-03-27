@@ -18,8 +18,13 @@ layers:
     items:
       - acme-database
       - heroes-database
+  third_party_layer:
+    title: Third Party Layer
+    items:
+      - paypal
+      - national-id verification service
   cross_cutting_concerns:
-    title: Platform Services
+    title: Cross cutting concerns
     items:
       - Auth0
       - AWS S3
